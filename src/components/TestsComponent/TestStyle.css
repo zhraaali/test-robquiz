@@ -1,0 +1,79 @@
+.hero-test{
+    /* background-image: url('../../assets/images/quiz.png'); */
+    background-size: cover;
+    /* width:100%; */
+    height: 10vh;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 0 0 15px 15px;
+}
+.hero-test::before{
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color: black; */
+    opacity: 0.4;
+    border-radius: 0 0 15px 15px;
+}
+.hero-test h3{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    font-size: 1rem;
+    font-family: var(--heading-font);
+    color: white;
+    border: 3px dotted var(--heading-color);
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    border-radius: 15px;
+    opacity: 0.8;
+    transform: translate(-50%);
+}
+.ha-button a{
+    text-decoration: none;
+    color: white;
+
+}
+.ha-container-test{
+    width:85%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: baseline; */
+    gap: 10px;
+}
+
+.ha-container-test .card{
+    border: none;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.284);
+}
+
+@media (max-width: 700px) {
+    .ha-container-test{
+        justify-content: center;
+    }
+    .slick-slide img{
+        /* height: 13rem !important; */
+        width: 10rem !important;
+    }
+}
+.slick-slide img{
+    /* height: 10rem; */
+    /* width: 100% !important; */
+    object-fit: scale-down;
+}
+.ho-contianer-test{
+ margin:60px auto;
+}
+
+@media (max-width: 858px){
+   .pagination {
+        position: static;
+        height: auto;
+        background: transparent;
+    }
+}

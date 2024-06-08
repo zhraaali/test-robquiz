@@ -1,0 +1,206 @@
+/* .zh-smcards-container{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: -150px;
+    z-index: 99;
+}
+ .zh-smcards-container1{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    z-index: 99;
+}
+. */
+.ha-link{
+    width: 20% !important;
+    text-decoration: none;
+}
+ .zh-smcard{
+    width: 50%;
+    background-color: #FFFFFF;
+    border-radius: 1.43rem 1.43rem ;
+    box-shadow:.1rem .1rem #0000001A ;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 35vh; */
+    border: 1px solid #0000001c;
+}
+
+.zh-smcard .zh-smcard-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 0;
+}
+
+  .zh-smcard .zh-smcard-img img{
+    width: 100%;
+    border-radius: 1.43rem 1.43rem 0 0;
+    height: 5rem;
+    object-fit: scale-down;
+}
+
+ .zh-smcard .zh-smcard-info .zh-h5-smscreen,.zh-h6-smscreen,.zh-btn-smscreen,.zh-img-smscreen{
+    display: none;
+}
+
+.zh-smcard .zh-smcard-info h5{
+    font-family: Montserrat;
+    width: 90%;
+    margin-top: 2%;
+    font-size:0.775rem;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 3%;
+}
+
+
+ .zh-smcard .zh-smcard-info{
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+ .zh-smcard .zh-smcard-info h6{
+    font-family: Montserrat;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #282828;
+    margin: 5% 0;
+}
+
+ .zh-smcard .zh-smcard-info p{
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #808080;
+    margin-bottom: 5%;
+}
+
+ .zh-smcard .zh-smcard-info button{
+    width: 47.8%;
+    height: 2.31rem;
+    border-radius: 0.37rem;
+    font-family: Montserrat;
+    font-size: 1.12rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin-bottom: 5%;
+    background-color: #004E6B;
+    color: #FFFFFF;
+}
+
+@media (max-width:1290px){
+     .zh-smcard .zh-smcard-info h6{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width:1070px){
+     .zh-smcard .zh-smcard-info h5{
+        font-size: .91rem;
+    }
+
+
+     .zh-smcard .zh-smcard-info h6{
+        font-size: .6rem;
+    }
+
+     .zh-smcard .zh-smcard-info p{
+        font-size:.6rem ;
+    }
+     .zh-smcard .zh-smcard-info button{
+        font-size: .8rem;
+        height: 1.91rem;
+    }
+}
+
+@media (max-width:774px){
+     .zh-smcard .zh-smcard-info h5{
+        font-size: .7rem;
+    }
+
+
+     .zh-smcard .zh-smcard-info h6{
+        font-size: .49rem;
+    }
+
+     .zh-smcard .zh-smcard-info p{
+        font-size: .48rem;
+    }
+
+     .zh-smcard .zh-smcard-info button{
+        font-size: .6rem;
+        height: 1.31rem;
+    }
+}
+
+@media (max-width:600px){
+    .ha-link{
+        width: 90% !important;
+    }
+    .zh-smcards-container
+    {
+        width: 19.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .zh-smcards-container1
+    {
+        width: 19.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+     .zh-smcard{
+        width: 100%;
+        margin-top: 3%;
+    }
+
+     .zh-smcard .zh-smcard-info h5{
+        font-size: 1rem;
+    }
+
+     .zh-smcard .zh-smcard-info .zh-h5-bigscreen,.zh-h6-bigscreen,.zh-btn-bigscreen,.zh-img-bigscreen{
+        display: none;
+    }
+
+     .zh-smcard .zh-smcard-info .zh-h5-smscreen,.zh-h6-smscreen,.zh-btn-smscreen,.zh-img-smscreen{
+        display: block;
+    }
+
+     .zh-smcard .zh-smcard-info h6{
+        font-size: .75rem;
+    }
+
+     .zh-smcard .zh-smcard-info p{
+        font-size: .75rem;
+    }
+     .zh-smcard .zh-smcard-info button{
+        width: 7.12rem;
+        height: 1.75rem;
+        font-size: 1rem;
+    }
+}

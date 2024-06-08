@@ -1,0 +1,21 @@
+.zh-container{
+    background-color: #d9c2c216;
+    border-radius: 8px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.zh-container h1{
+    text-align: center;
+    color: var(--paragraph-color);
+    margin-bottom: 4%;
+}
+
+.zh-container .zh-inner-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 85%;
+    margin: 0 auto;
+}

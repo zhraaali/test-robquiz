@@ -1,0 +1,26 @@
+.zh-newquiz-container{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.zh-newquiz-container h1{
+    text-align: center;
+}
+
+.zh-newquiz-cards{
+display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+    }
+
+    /* .zh-newquiz-cards .card{
+        margin-top: 3%;
+    } */
+

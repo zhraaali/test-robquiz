@@ -1,0 +1,185 @@
+.navbar{
+	background-color: var(--main-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	height: 80px;
+}
+.logo a{
+text-decoration: none;
+color: var(  --word-color);
+}
+.zh-nav{
+    width:100%;
+	margin: 0 auto;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	
+}
+
+.zh-nav .zh-logo-search{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 8%;
+}
+
+.zh-nav .col-auto{
+	position: relative;
+}
+
+.zh-nav .col-auto svg{
+	position: absolute;
+	bottom: 25%;
+    left: 80%;
+	cursor: pointer;
+}
+
+
+
+ .zh-nav label{
+    font-size: xx-large;
+    font-weight: 700;
+	color: var(--word-color);
+}
+
+.zh-nav label span{
+    color: #fff;
+}
+
+
+
+.zh-nav .zh-nav-elements{
+	 margin: 0;
+	 padding-top: 10px;
+ }  
+
+
+  nav ul{
+	float: right;
+	margin-right: 20px;
+  }
+  
+  nav ul li  {
+	display: inline-block;
+	margin: 0 5px;
+	padding: 0px 13px;
+	border-radius: 5px;
+  
+  }
+  
+  nav ul li a{
+	font-size: 17px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+  }
+
+  .zh-nav .zh-login-btn{
+	padding: .7em;
+  }
+  .zh-nav .zh-login-btn:hover{
+		background-color: var(--word-color);
+		color: #fff;
+		border-radius: 5%;
+  }
+  
+  a:active, a:hover{
+	color: var(--word-color);
+	transition: .5s;
+  }
+  
+  .checkbtn{
+	font-size: 30px;
+	color: blue;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+  }
+  
+  #check{
+	display: none;
+  }
+  
+  @media (max-width: 952px){
+	label .logo{
+	  font-size: 30px;
+	  padding-left: 50px;
+	}
+  
+	nav ul li a{
+	  font-size: 16px;
+  
+	}
+  }
+  
+  @media (max-width: 858px){
+	.zh-nav{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.navbar .zh-nav form{
+		margin-left: 5%;
+	}
+
+	.form-control{
+		width: 95%;
+	}
+
+	
+
+	.checkbtn{
+	  display: block;
+	  margin-left: 5%;
+	}
+	
+	.checkbtn svg{
+		color: #fff;
+	}
+
+	ul{
+	  position: fixed;
+	  width: 100%;
+	  height: 100vh;
+	  background: #2c3e50;
+	  top: 80px;
+	  left: -100%;
+	  text-align: center;
+	  transition: all .5s;
+	  z-index: 5;
+	}
+  
+	nav ul li {
+	  display: block;
+	  margin: 50px 0;
+	  line-height: 30px;
+	}
+  
+	nav ul li a{
+	  font-size: 20px;
+	}
+  
+	#check:checked ~ ul{
+	  left: 0;
+	  z-index: 99;
+	}
+
+	.zh-nav .zh-logo-search{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+  }
+  
+  @media (max-width:450px){
+	.zh-nav .col-auto svg{
+		left: 70%;
+	}
+  }

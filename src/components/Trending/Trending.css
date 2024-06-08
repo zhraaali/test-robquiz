@@ -1,0 +1,12 @@
+.trending{
+    margin: 0 auto;
+    width:85%;
+    padding-top: 50px;
+
+}
+
+.trending h1{
+    margin:0% 0% 4% ;
+    text-align: center;
+    color: var(--paragraph-color);
+}

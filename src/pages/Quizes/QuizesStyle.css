@@ -1,0 +1,19 @@
+.ha-category-card{
+    width:85% ;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+/* .ha-pagination{
+    margin: 30px auto;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+  
+} */
+.ha-serch{
+    width:85%;
+    margin: 0 auto;
+}
+

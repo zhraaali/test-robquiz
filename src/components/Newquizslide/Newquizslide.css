@@ -1,0 +1,72 @@
+.React-slide{
+    /* width: 80vw; */
+    /* width: 62vw; */
+    margin: 0 auto;
+}
+
+
+
+
+
+.slick-dots{
+    display: none !important;
+}
+.slick-track{
+    width: 100vw;
+}
+
+.slick-prev,.slick-next{
+    color: var(--main-color);
+    border-radius: 8px;
+    width: 20px;
+}
+.slick-prev{
+    margin-left: -20px !important;
+}
+.slick-next{
+    margin-right: -20px !important;
+}
+.slick-prev,.slick-next::after{
+    color: var(--main-color);
+    border-radius: 8px;
+    width: 20px;
+    /* content: none; */
+}
+
+.slick-prev::before,.slick-next::before{
+    color: var(--main-color) ;
+    border-radius: 8px;
+    width: 20px;
+    /* content: none; */
+}
+@media (max-width:900px) {
+    .slick-prev{
+        /* display: none !important; */
+        margin-left: 0px !important;
+    }
+    .slick-next{
+        /* display: none !important; */
+
+        margin-right: 0px !important;
+    }
+}
+@media (max-width:500px) {
+    /* .React-slide{
+        margin: 50px auto !important;
+    } */
+    .slick-list{
+        margin: 0 auto !important;
+        width: 90%;
+    }
+
+    .slick-list button{
+        width: 20px;
+    }
+    /* .slick-prev{
+        margin-right: 48px !important;
+    } */
+    /* .slick-arrow.slick-prev{
+        display: none !important;
+    } */
+    
+}

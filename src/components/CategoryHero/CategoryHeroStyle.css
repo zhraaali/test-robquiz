@@ -1,0 +1,35 @@
+/* .ha-category{
+    background-image: url('../../assets/images/categoryhero.png');
+    background-size: cover;
+    width:100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 0 0 15px 15px;
+}
+.ha-category::before{
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    border-radius: 0 0 15px 15px;
+}
+.ha-title{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    font-size: 36px;
+    font-family: var(--heading-font);
+    color: white;
+    border: 3px dotted var(--heading-color);
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    border-radius: 15px;
+    opacity: 0.8;
+    transform: translate(-50%);
+
+} */

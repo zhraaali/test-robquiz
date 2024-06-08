@@ -1,0 +1,131 @@
+.zh-hero{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 25px;
+   background-color: var(--heading-color);
+   background-size: cover;
+}
+
+.zh-hero .zh-hero-top{
+   display: flex;
+   /* justify-content: space-between; */
+   justify-content: center;
+   align-items: center;
+   width: 95%;
+   margin: 50px auto 0;
+   height: 15vh;
+   flex-direction: row-reverse;
+}
+
+
+
+.zh-hero-img{
+   display: none;
+}
+
+/* .zh-hero-img{
+   width: 40%;
+   height: 70%;
+   border-radius: 50px;
+   display:none;
+   
+} */
+
+/* .zh-hero img{
+   width: 90%;
+   height: 100%;
+   box-shadow: -30px -15px var(--word-color);
+   border-radius: 50px;
+} */
+
+
+
+.zh-hero .zh-hero-content{
+   width: 100%;
+   color: #fff;
+   direction: rtl;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.zh-hero .zh-hero-content h1{
+   font-size: 1rem;
+   line-height: 50px;
+}
+
+
+.zh-hero .zh-hero-btn{
+   background-color: #fff;
+   color: var(--paragraph-color);
+   padding: 10px 20px;
+   margin-bottom: 10%;
+   border-radius: 8px;
+}
+
+.zh-hero .zh-hero-btn:hover{
+   color: #fff;
+   background-color: var(--word-color);
+}
+
+.zh-hero .zh-quiz-time h1{
+   /* color: #fff; */
+   animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+   0%   {color: #fff;}
+   /* 25%  {color: yellow;} */
+   50%  {color: var(--word-color);}
+   /* 100% {color: var(--main-color);} */
+ }
+
+ @media (max-width:1222.4px){
+   .zh-hero .zh-hero-content h1{
+      font-size: 1rem;
+   }
+ }
+
+@media (max-width:750px){
+
+   .zh-hero .zh-hero-content h1{
+      font-size: .8rem;
+   }
+   .zh-hero img{
+       display: none;
+       width: 0%;
+   }
+
+   .zh-hero-img{
+       width: 0%;
+       display: none;
+   }
+
+
+   .zh-hero .zh-hero-content{
+       width: 100%;
+   }
+}
+
+@media (max-width:600px){
+   .zh-hero .zh-hero-content h1{
+       line-height: 20px;
+   }
+
+   .zh-hero .zh-hero-content h1{
+      font-size: 1rem;
+   }
+   
+}
+
+@media (max-width:465px){
+   .zh-hero .zh-hero-content h1{
+      font-size: 1rem;
+   }
+}
